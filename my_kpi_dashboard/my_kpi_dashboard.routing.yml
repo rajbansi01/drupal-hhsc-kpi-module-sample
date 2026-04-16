@@ -1,0 +1,7 @@
+my_kpi_dashboard.page:
+  path: '/kpi-dashboard'
+  defaults:
+    _controller: '\Drupal\my_kpi_dashboard\Controller\KpiDashboardController::page'
+    _title: 'KPI Dashboard'
+  requirements:
+    _permission: 'access content'
